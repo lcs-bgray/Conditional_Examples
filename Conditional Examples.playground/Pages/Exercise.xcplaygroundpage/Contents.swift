@@ -14,13 +14,65 @@ import PlaygroundSupport
  
  */
 // Create canvas
-let canvas = Canvas(width: 400, height: 300)
+let canvas = Canvas(width: 500, height: 200)
 /*:
  ## Add your code below
  
  Fill in the blanks below the comments
  */
 // Loop 4 times, counting up by 100, from 0
+
+let random1 = random(from: 1, toButNotIncluding: 3)
+let random2 = random(from: 1, toButNotIncluding: 3)
+let random3 = random(from: 1, toButNotIncluding: 3)
+let random4 = random(from: 1, toButNotIncluding: 3)
+
+// ---------------------------------------------------------
+//Random1
+if random1 == 1 {
+    canvas.fillColor = Color.black
+    canvas.drawRectangle(centreX: 100, centreY: 100, width: 100, height: 100)
+}
+if random1 == 2 {
+    canvas.fillColor = Color.white
+    canvas.drawRectangle(centreX: 100, centreY: 100, width: 100, height: 100)
+}
+// ---------------------------------------------------------
+//Random2
+
+if random2 == 1 {
+    canvas.fillColor = Color.black
+    canvas.drawRectangle(centreX: 200, centreY: 100, width: 100, height: 100)
+}
+if random2 == 2 {
+    canvas.fillColor = Color.white
+    canvas.drawRectangle(centreX: 200, centreY: 100, width: 100, height: 100)
+}
+// ---------------------------------------------------------
+//Random3
+
+if random3 == 1 {
+    canvas.fillColor = Color.black
+    canvas.drawRectangle(centreX: 300, centreY: 100, width: 100, height: 100)
+}
+if random3 == 2 {
+    canvas.fillColor = Color.white
+    canvas.drawRectangle(centreX: 300, centreY: 100, width: 100, height: 100)
+}
+// ---------------------------------------------------------
+//Random4
+
+if random4 == 1 {
+    canvas.fillColor = Color.black
+    canvas.drawRectangle(centreX: 400, centreY: 100, width: 100, height: 100)
+}
+if random4 == 2 {
+    canvas.fillColor = Color.white
+    canvas.drawRectangle(centreX: 400, centreY: 100, width: 100, height: 100)
+
+}
+// ---------------------------------------------------------
+
 
 // Inside the loop, generate a random number (1 or 2)
 
