@@ -69,7 +69,6 @@ if random4 == 1 {
 if random4 == 2 {
     canvas.fillColor = Color.white
     canvas.drawRectangle(centreX: 400, centreY: 100, width: 100, height: 100)
-
 }
 // ---------------------------------------------------------
 
